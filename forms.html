@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend>Application form</legend>
+            <label for="username">Username:</label>
+            <input type="text" placeholder="Enter username" id="username" name="Username" value="Krishna" required ><br><br>
+            <label for="pwd">Password:</label>
+            <input type="password" maxlength="10" minlength="4" id="pwd"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email"><br><br>
+            <label for="">Enter Number:</label>
+            <input type="number" max="25" min="10"><br><br>
+            <label for="date">Date Of Birth:</label>
+            <input type="date" id="date"><br><br>
+            <label for="time">Time:</label>
+            <input type="time"><br><br>
+            <input type="datetime-local"><br><br>
+            <input type="week"><br><br>
+            <input type="month"><br><br>
+            <input type="color"><br><br>
+            <input type="range" max="200" value="67"><br><br>
+            <label for="file">Choose File</label>
+            <input type="file" multiple id="file"><br><br>
+            <input type="tel"><br><br>
+            <label for="">Skills</label>
+            <input type="checkbox" value="html" name="skills">HTML <br>
+            <input type="checkbox" value="css" name="skills">CSS <br><br>
+            <label for="">Gender:</label>
+             Male <input type="radio" name="gender" value="male">Female <input type="radio" name="gender" value="female">
+             <input type="button" value="login"><br>
+             <input type="reset" value="Reset"><br>
+             <input type="submit" value="submit"><br>
+             <button type="submit">Submit</button><br>
+             <!--<input type="image" src="./image/img1.jpg">-->
+             <input type="search"><br><br>
+             <datalist id="technologies">
+                <option value="MongoDB">
+                <option value="ExpressJS">
+                <option value="AngularJS">
+                <option value="ReactJS">
+                <option value="NodeJS">
+             </datalist>
+             <input list="technologies"><br><br>
+
+             <label>Languages:</label>
+             <select name="" id="">
+                <option value="" selected disabled>-- Select Language --</option>
+                <option value="hindi">Hindi</option>
+                <option value="malayalam">Malayalam</option>
+                <option value="german">German</option>
+                <option value="urdu">Urdu</option>
+                <option value="english">English</option>
+                <option value="freanch">Freanch</option>
+             </select>
+             <textarea rows="3" cols="20"></textarea>
+             </fieldset>
+        </form>
+    </body>
+</html>
